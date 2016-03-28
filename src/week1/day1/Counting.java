@@ -1,4 +1,4 @@
-package week_1;
+package week1.day1;
 public class Counting {
 	public static void main(String[] args) throws InterruptedException{
 		class Counter {

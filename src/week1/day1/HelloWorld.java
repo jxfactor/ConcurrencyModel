@@ -1,4 +1,4 @@
-package week_1;
+package week1.day1;
 public class HelloWorld {
 	public static void main(String[] args) throws InterruptedException{
 		// 创建并启动一个Thread实例

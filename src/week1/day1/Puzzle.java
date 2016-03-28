@@ -1,4 +1,4 @@
-package week_1;
+package week1.day1;
 public class Puzzle {
 	static boolean answerReady = false;
 	static int answer = 0;
