@@ -36,6 +36,8 @@ public class Uninterruptible {
 		t2.start();
 		Thread.sleep(1000);
 		
+		// 使用内置锁时，由于阻塞的线程无法被中断，程序也就不可能从死锁中恢复，唯一的办法就是终止JVM
+		
 		t1.interrupt();
 		t2.interrupt();
 		
